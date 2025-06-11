@@ -42,7 +42,7 @@ const itemData = [
     link: 'https://github.com/dtaird/ecolifestyle-web',
     img: 'https://github.com/dtaird/ecolifestyle-web/raw/main/screenshot.png',
     title: 'ecolifestyle-web',
-    desc: 'EcoLifestyle provides people with the necessary knowledge to adopt an ecological mindset that will benefit the ecosystem and preserve natural resources for future generations. The site has many responsive pages, animation, databaseы, account protection (password encryption by hashing), blog posts, comments on these posts'
+    desc: 'EcoLifestyle provides people with the necessary knowledge to adopt an ecological mindset that will benefit the ecosystem and preserve natural resources for future generations. The site has many responsive pages, animation, databases, account protection (password encryption by hashing), blog posts, comments on these posts'
   },
   {
     link: 'https://github.com/dtaird/activitygenerator-web',
