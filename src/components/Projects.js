@@ -98,5 +98,10 @@ const itemData = [
     title: 'typingspeed-gui',
     desc: 'This is a simple Python application that allows users to measure their typing speed by tracking the number of characters they type per minute.'
   },
-  
+  {
+    link: 'https://github.com/dtaird/portfolio',
+    img: '',
+    title: 'This site',
+    desc: 'This is a portfolio website, showcasing projects of Tair Dulatuly built on react by using material-ui as styling.'
+  },
 ];
