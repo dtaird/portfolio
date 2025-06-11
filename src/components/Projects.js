@@ -100,7 +100,7 @@ const itemData = [
   },
   {
     link: 'https://github.com/dtaird/portfolio',
-    img: '',
+    img: 'https://github.com/dtaird/portfolio/raw/master/public/screenshot.png',
     title: 'This site',
     desc: 'This is a portfolio website, showcasing projects of Tair Dulatuly built on react by using material-ui as styling.'
   },
