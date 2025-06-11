@@ -24,14 +24,14 @@ export default function Header() {
   };
 
   return (
-    <AppBar position="static" sx={{
-            boxShadow: '1px 1px 10px rgb(162, 110, 182)',
-            borderRadius: '20px',
+    <AppBar position="sticky" sx={{
+            backdropFilter:"blur(40px)",
+            boxShadow: '1px 1px 15px rgb(162, 110, 182)',
+            borderRadius: '0px 0px 20px 20px',
             width: '90%',
             margin: '0 auto',
-            bgcolor: 'transparent',
+            bgcolor: 'rgba(0, 0, 0, 0.4)',
             backgroundImage: 'none',
-            mt: 'calc(var(--template-frame-height, 0px) + 28px)',
           }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -91,7 +91,7 @@ export default function Header() {
             variant="h5"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="#home"
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },

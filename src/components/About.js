@@ -50,7 +50,7 @@ export default function About() {
         <DialogContent>
         <Card sx={{ maxWidth: '400px' , padding: 2 }}>
             <Stack direction="row" spacing={2} alignItems="center">
-              <Avatar alt="Sumanth Samala" src="https://media.licdn.com/dms/image/v2/D4E03AQHPSQ3Wh4FvOA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1684067355275?e=2147483647&v=beta&t=4-KNxH5Yyp9MkYfBuvbuQC34rNa9J2KEQAPLGIxeQQQ" sx={{ width: 100, height: 100 }} />
+              <Avatar alt="tair" src="https://media.licdn.com/dms/image/v2/D4E03AQHPSQ3Wh4FvOA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1684067355275?e=2147483647&v=beta&t=4-KNxH5Yyp9MkYfBuvbuQC34rNa9J2KEQAPLGIxeQQQ" sx={{ width: 100, height: 100 }} />
               <div>
                 <Typography variant="h5">Tair Dulatuly</Typography>
                 <Typography variant="subtitle1" color="text.secondary">
@@ -84,8 +84,6 @@ export default function About() {
             +7 (701) 888 19-22
           </Button>
           </Box>
-
-
         </DialogContent>
       </Dialog>
     </React.Fragment>

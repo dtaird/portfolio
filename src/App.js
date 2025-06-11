@@ -24,14 +24,14 @@ const theme = createTheme({
   },
 });
 
-function App() {
+export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       
       <Header />
 
-      <Box component="section" sx={{ width: "70%", height:'550px', margin:'0 auto', textAlign: 'center', paddingTop: '120px' }}>
+      <Box component="section" id='home' sx={{ width: "70%", height:'600px', margin:'0 auto', textAlign: 'center', paddingTop: '120px' }}>
         <Typography variant="h2" gutterBottom>
           Hi, I am <span style={{color: '#6f6fab'}}>Tair Dulatuly</span>!
         </Typography>
@@ -44,16 +44,16 @@ function App() {
       </Box>
 
       <Box component="section" id='projects'>
-      <Divider sx={{width:'80%', margin: '0 auto'}}>
-            <Stack direction="row" spacing={2}>
-              <Button size='large' variant="outlined" color="primary" startIcon={<LinkedInIcon />}  href='https://www.linkedin.com/in/dtair'>
-                LINKEDIN
-              </Button>
-              <Button size='large' variant="outlined" color="primary" endIcon={<GitHubIcon />} href='https://github.com/dtaird'>
-                GITHUB
-              </Button>
-            </Stack>
-      </Divider>
+        <Divider sx={{width:'80%', margin: '0 auto'}}>
+              <Stack direction="row" spacing={2}>
+                <Button size='large' variant="outlined" color="primary" startIcon={<LinkedInIcon />}  href='https://www.linkedin.com/in/dtair'>
+                  LINKEDIN
+                </Button>
+                <Button size='large' variant="outlined" color="primary" endIcon={<GitHubIcon />} href='https://github.com/dtaird'>
+                  GITHUB
+                </Button>
+              </Stack>
+        </Divider>
 
         <Typography variant="h3" gutterBottom sx={{textAlign:'center', margin: '50px'}}>
           My projects.
@@ -61,15 +61,12 @@ function App() {
         <Projects />
       </Box>
 
-      <Box component="section" id='footer' sx={{height:'100px', margin:'0 auto', textAlign: 'center', marginTop: '80px', backgroundColor: '#1f1f1f' }}>
-        <Typography variant="body1" gutterBottom sx={{ lineHeight:'100px' }}>
+      <Box component="footer" id='footer' sx={{height: '100px', margin:'0 auto', textAlign: 'center', backgroundColor: '#1f1f1f', marginTop:'100px' }}>
+        <Typography variant="body1" gutterBottom sx={{ fontSize: '15px', lineHeight: '100px' }}>
           © {new Date().getFullYear()} Tair Dulatuly. All Rights Reserved.
         </Typography>
       </Box>
-
       <About/>
     </ThemeProvider>
   );
 }
-
-export default App;
