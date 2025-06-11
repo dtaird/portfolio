@@ -54,7 +54,7 @@ const itemData = [
     link: 'https://github.com/dtaird/nbascraper-scraping',
     img: 'https://github.com/dtaird/nbascraper-scraping/raw/main/program.png',
     title: 'nbascraper-scraping',
-    desc: 'This is a Python script that scrapes NBA player stats from the official NBA website using Selenium and saves the data to a CSV file. The user can select various parameters for the data to be scraped such as season, season type, per mode, and sort type using the Graphical User Interface (GUI) built with Tkinter.'
+    desc: 'Python script that scrapes NBA player stats from the official NBA website using Selenium and saves the data to a CSV file. The user can select various parameters for the data to be scraped such as season, season type, per mode, and sort type using the Graphical User Interface (GUI) built with Tkinter.'
   },
   {
     link: 'https://github.com/dtaird/suppliesblockchain-web',
@@ -66,42 +66,42 @@ const itemData = [
     link: 'https://github.com/dtaird/paletegenerator-web',
     img: 'https://github.com/dtaird/paletegenerator-web/raw/main/screenshot.png',
     title: 'paletegenerator-web',
-    desc: 'This is a simple web application built with Flask that allows users to upload an image and extract its dominant color palette using the ColorThief library.'
+    desc: 'Simple web application built with Flask that allows users to upload an image and extract its dominant color palette using the ColorThief library.'
   },
   {
     link: 'https://github.com/dtaird/breakout-game',
     img: 'https://github.com/dtaird/breakout-game/raw/main/screenshot.png',
     title: 'breakout-game',
-    desc: "This is a simple Brick Breaker game built using Python's turtle module. In this game, the player controls a paddle to hit a ball towards a set of bricks at the top of the screen, with the goal of breaking all the bricks to advance to the next level."
+    desc: "Simple Brick Breaker game built using Python's turtle module. In this game, the player controls a paddle to hit a ball towards a set of bricks at the top of the screen, with the goal of breaking all the bricks to advance to the next level."
   },
   {
     link: 'https://github.com/dtaird/spaceinvaders-game',
     img: 'https://github.com/dtaird/spaceinvaders-game/raw/main/screenshot.png',
     title: 'spaceinvaders-game',
-    desc: "This is a simple implementation of the popular game Space Invaders using Python's turtle graphics library."
+    desc: "Simple implementation of the popular game Space Invaders using Python's turtle graphics library."
   },
   {
     link: 'https://github.com/dtaird/disappearingwriting-gui',
     img: 'https://github.com/dtaird/disappearingwriting-gui/raw/main/screenshot.png',
     title: 'disappearingwriting-gui',
-    desc: "This code implements a simple tkinter GUI application that counts the number of words you write in a text field within a time limit of 5 seconds. If you don't write anything in the text field within the time limit, the text will disappear."
+    desc: "Simple tkinter GUI application that counts the number of words you write in a text field within a time limit of 5 seconds. If you don't write anything in the text field within the time limit, the text will disappear."
   },
   {
     link: 'https://github.com/dtaird/imagewatermarker-gui',
     img: 'https://github.com/dtaird/imagewatermarker-gui/raw/main/screenshot.png',
     title: 'imagewatermarker-gui',
-    desc: "This program is a simple GUI application built with Python's tkinter and PIL libraries that allows a user to choose an image and watermark it. "
+    desc: "Simple GUI application built with Python's tkinter and PIL libraries that allows a user to choose an image and watermark it. "
   },
   {
     link: 'https://github.com/dtaird/typingspeed-gui',
     img: 'https://github.com/dtaird/typingspeed-gui/raw/main/screenshot.png',
     title: 'typingspeed-gui',
-    desc: 'This is a simple Python application that allows users to measure their typing speed by tracking the number of characters they type per minute.'
+    desc: 'Simple Python application that allows users to measure their typing speed by tracking the number of characters they type per minute.'
   },
   {
     link: 'https://github.com/dtaird/portfolio',
     img: 'https://github.com/dtaird/portfolio/raw/master/public/screenshot.png',
     title: 'This site',
-    desc: 'This is a portfolio website, showcasing projects of Tair Dulatuly built on react by using material-ui as styling.'
+    desc: 'Portfolio website, showcasing projects of Tair Dulatuly built on react by using material-ui as styling.'
   },
 ];
