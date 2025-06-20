@@ -3,6 +3,7 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 import CardContent from '@mui/material/CardContent';
+import ButtonGroup from '@mui/material/ButtonGroup';
 import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
@@ -12,6 +13,7 @@ import Stack from '@mui/material/Stack';
 import Card from '@mui/material/Card';
 import Fab from '@mui/material/Fab';
 import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
 import MapsUgcIcon from '@mui/icons-material/MapsUgc';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -49,25 +51,51 @@ export default function About() {
         <DialogTitle>{"About me"}</DialogTitle>
         <DialogContent>
         <Card sx={{ maxWidth: '400px' , padding: 2 }}>
-            <Stack direction="row" spacing={2} alignItems="center">
-              <Avatar alt="tair" src="https://media.licdn.com/dms/image/v2/D4E03AQHPSQ3Wh4FvOA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1684067355275?e=2147483647&v=beta&t=4-KNxH5Yyp9MkYfBuvbuQC34rNa9J2KEQAPLGIxeQQQ" sx={{ width: 100, height: 100 }} />
-              <div>
-                <Typography variant="h5">Tair Dulatuly</Typography>
-                <Typography variant="subtitle1" color="text.secondary">
-                  Aspiring Developer
-                </Typography>
-              </div>
-            </Stack>
             <CardContent>
-              <Typography variant="body2">
-                Skilled in python (flask, selenium, beautiful soup, sqlalchemy), javascipt (react, next, material-ui), solidity.
-              </Typography>
-              <Typography variant="body2" sx={{color:'#787878', marginTop: '10px'}}>
-                Nazarbayev Intellectual Schools
-              </Typography>
-              <Button variant="contained" color="primary" sx={{ mt: 2 }} startIcon={<LinkedInIcon />}  href='https://www.linkedin.com/in/dtair'>
-                View Profile
-              </Button>
+              <Grid container spacing={1}>
+
+              <Grid size={{ sm: 6, md: 9 }}>
+                <Stack direction="row" spacing={2} alignItems="center">
+                  <Avatar alt="tair" src="https://media.licdn.com/dms/image/v2/D4E03AQHPSQ3Wh4FvOA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1684067355275?e=2147483647&v=beta&t=4-KNxH5Yyp9MkYfBuvbuQC34rNa9J2KEQAPLGIxeQQQ" sx={{ width: 100, height: 100 }} />
+                  <div>
+                    <Typography variant="h5">Tair Dulatuly</Typography>
+                    <Typography variant="subtitle1" color="text.secondary">
+                      Aspiring Developer
+                    </Typography>
+                  </div>
+                </Stack>
+                  <Typography variant="body2">
+                    Skilled in python (flask, selenium, beautiful soup, sqlalchemy), javascipt (react, next, material-ui), solidity.
+                  </Typography>
+                  <Typography variant="body2" sx={{color:'#787878', marginTop: '10px'}}>
+                    Nazarbayev Intellectual Schools
+                  </Typography>
+                  <Button variant="contained" color="primary" sx={{ mt: 2 }} startIcon={<LinkedInIcon />}  href='https://www.linkedin.com/in/dtair'>
+                    View Profile
+                  </Button>
+              
+              </Grid>
+              <Grid size={{ sm: 6, md: 3 }}>
+                  <Typography variant="body2" sx={{color:'#787878', marginTop: '10px'}}>
+                    Check out my services on these websites:
+                  </Typography>
+                <ButtonGroup
+                  orientation="vertical"
+                  variant="contained"
+                >
+                  <Button  sx={{ mt: 2 }} href='https://kwork.ru/user/dtair'>
+                    Kwork
+                  </Button>
+                  <Button href='https://www.upwork.com/freelancers/~01a9e204e58bf47942?mp_source=share'>
+                    Upwork
+                  </Button>
+                  <Button href='https://www.fiverr.com/s/qD361Qg'>
+                    Fiverr
+                  </Button>
+                </ButtonGroup>
+              </Grid>
+
+              </Grid>
             </CardContent>
           </Card>
 
