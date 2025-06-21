@@ -39,13 +39,13 @@ export default function Projects() {
 
 const itemData = [
   {
-    link: 'https://github.com/dtaird/ecolifestyle-web',
+    link: 'https://ecolifestyle-web.vercel.app',
     img: 'https://github.com/dtaird/ecolifestyle-web/raw/main/screenshot.png',
     title: 'ecolifestyle-web',
     desc: 'EcoLifestyle provides people with the necessary knowledge to adopt an ecological mindset that will benefit the ecosystem and preserve natural resources for future generations. The site has many responsive pages, animation, databases, account protection (password encryption by hashing), blog posts, comments on these posts'
   },
   {
-    link: 'https://github.com/dtaird/activitygenerator-web',
+    link: 'https://activitygenerator-web.vercel.app',
     img: 'https://github.com/dtaird/activitygenerator-web/raw/main/screenshot.png',
     title: 'activitygenerator-web',
     desc: 'Flask web application that uses the Bored API to suggest activities to users who are feeling bored. It presents a simple user interface that allows users to specify the type of activity they are interested in, as well as the number of participants they want to involve.'
@@ -57,13 +57,13 @@ const itemData = [
     desc: 'Python script that scrapes NBA player stats from the official NBA website using Selenium and saves the data to a CSV file. The user can select various parameters for the data to be scraped such as season, season type, per mode, and sort type using the Graphical User Interface (GUI) built with Tkinter.'
   },
   {
-    link: 'https://github.com/dtaird/suppliesblockchain-web',
+    link: 'https://suppliesblockchain-web.vercel.app',
     img: 'https://github.com/dtaird/suppliesblockchain-web/raw/main/public/img/home.png',
     title: 'suppliesblockchain-web',
     desc: 'Blockchain for creating a fully transparent supply chain, where each participant (from the manufacturer to the end consumer) can track the origin, movement and condition of goods in real time.'
   },
   {
-    link: 'https://github.com/dtaird/paletegenerator-web',
+    link: 'https://paletegenerator-web.vercel.app',
     img: 'https://github.com/dtaird/paletegenerator-web/raw/main/screenshot.png',
     title: 'paletegenerator-web',
     desc: 'Simple web application built with Flask that allows users to upload an image and extract its dominant color palette using the ColorThief library.'
