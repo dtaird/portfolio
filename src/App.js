@@ -48,6 +48,9 @@ export default function App() {
             main: "rgb(162, 110, 182)",
           },
         },
+        typography: {
+          fontFamily: 'Jost, Roboto',
+        },
       }),
     [mode]
   );
