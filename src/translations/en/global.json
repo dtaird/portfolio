@@ -1,0 +1,33 @@
+{
+    "header": {
+        "home": "Home",
+        "projects": "Projects"
+    },
+    "body": {
+        "welcome": "Hi, I am Tair Dulatuly!",
+        "description": "I am into web developing, and also into different things. Here, you can check out on what i am working on.",
+        "viewProjects": "My projects"
+    },
+    "about":{
+        "name": "Tair Dulatuly",
+        "title": "About me",
+        "subtitle": "Aspiring Developer",
+        "skills": "Skilled in python (flask, selenium, beautiful soup, sqlalchemy), javascipt (react, material-ui), solidity.",
+        "school": "Nazarbayev Intellectual Schools",
+        "linkedin": "View Profile",
+        "suggestion": "Check out my services on these websites:",
+        "connect": "I am always up for a chat! feel free to reach out!"
+    },
+    "projects": {
+        "heading": "My projects.",
+        "subtitle": "Cards are clickable, click to view the project or the source code.",
+        "tech": "My tech stack\nFrontend: HTML, CSS, Bootstrap, JavaScript, React.js, MaterialUI, SemanticUI\nBackend: Python, Flask\nDatabases: SQLAlchemy\nCloud: Vercel",
+        "portfolio-desc": "Portfolio website, showcasing projects of Tair Dulatuly built on react by using material-ui as styling.",
+        "ecolifestyle-desc": "Full-fledged blogging platform on Flask and SQLalchemy with support for registration, authorization, comments, an events calendar and a feedback form.",
+        "activitygenerator-desc": "Flask web application that uses the Bored API to suggest activities to users who are feeling bored.",
+        "paletegenerator-desc": "Simple web application built with Flask that allows users to upload an image and extract its dominant color palette using the ColorThief library."
+    },
+    "footer": {
+        "text": "made with ❤️ by Tair Dulatuly"
+    }
+}
